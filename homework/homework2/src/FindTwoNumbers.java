@@ -42,7 +42,7 @@ public class FindTwoNumbers {
 
 
     public static void main(String[] args) {
-        Integer[] array = {10, 2, 3, 1, 2, 4, -1, 7, 5, 7};
+        Integer[] array = {10, 2, 3, 1, 2, 4, -1, 7, 5};
 //        Integer[] array = {2, 2, 2, 2, 3, 4, 3, 3, 3, 3};
         System.out.println("Array: " + Arrays.toString(array));
         Integer sum = 9;
