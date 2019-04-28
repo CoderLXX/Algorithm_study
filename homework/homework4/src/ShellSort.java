@@ -38,7 +38,7 @@ public class ShellSort {
         System.out.println("Please input an array to test my shell sort:");
         Scanner sc = new  Scanner(System.in);
         Comparable[] arr = sc.nextLine().split(" ");
-        shellSort(arr);  
+        shellSort(arr);
 
     }
 
