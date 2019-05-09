@@ -13,6 +13,7 @@ public class MergeSort {
         if (start >= end) return;
 
         int len = end - start, mid = (len >> 1) + start;
+
         int start1 = start, end1 = mid;
         int start2 = mid + 1, end2 = end;
         sort(arr, result, start1, end1);
